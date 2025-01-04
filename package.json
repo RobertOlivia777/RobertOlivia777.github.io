@@ -1,5 +1,5 @@
 {
-  "name": "my",
+  "homepage": "https://github.com/RobertOlivia777/RobertOlivia777.github.io#readme",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -45,6 +45,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RobertOlivia777/RobertOlivia777.github.io/issues"
-  },
-  "homepage": "https://github.com/RobertOlivia777/RobertOlivia777.github.io#readme"
+  }
 }
