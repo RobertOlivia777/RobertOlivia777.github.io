@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Technologies from './components/Technologies'
 import Experiences from './components/Experiences';
 import Contact from './components/Contact';
+import BackToTop from './components/BackToTop';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Technologies/>
       <Experiences/>
       <Contact/>
+      <BackToTop/>
 
     </div>
   </div>

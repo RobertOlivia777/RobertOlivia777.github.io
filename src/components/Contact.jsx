@@ -37,7 +37,7 @@ export default function Contact() {
             transition={{ duration: 1}}
             className="flex justify-center items-center">
                 <MdEmail className="mx-1 text-xl text-stone-400"/>
-            <a href="https://mail.google.com/mail" target="_blank" className="text-md text-stone-400 hover:text-stone-600">
+            <a href="https://mail.google.com" target="_blank" rel="noopener    noreferrer" className="text-md text-stone-400 hover:text-stone-600">
                 {Contact_Me.email}
             </a>
             </motion.div>
