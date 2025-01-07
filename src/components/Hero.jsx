@@ -1,6 +1,7 @@
 import profilePic from "../assets/Foto_crop.png"
 import {Hero_Content} from "../constants/index.js"
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import resume from "../assets/Robert Sanjaya Resume.pdf";
 
 const containerVariants ={
     hidden: {opacity: 0, x: -100},
@@ -56,7 +57,7 @@ const Hero = () => {
                     </motion.p>
                     <motion.a 
                     variants={childVariants}
-                    href="/resume.pdf" target="_blank" className="bg-white rounded-full p-3 text-sm text-stone-800 mb-10 hover:bg-slate-500 hover:text-white">
+                    href={resume} download="Robert_Sanjaya_Resume" className="bg-white rounded-full p-3 text-sm text-stone-800 mb-10 hover:bg-slate-500 hover:text-white">
                     Download Resume
                     </motion.a>
                 </motion.div>

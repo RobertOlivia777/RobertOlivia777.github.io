@@ -26,7 +26,7 @@ function BackToTop() {
     return (
     <div className="fixed justify-center items-center z-10">
         {BackToTopButton && (
-            <button className="fixed bottom-6 right-6 w-12 h-12 rounded-full  bg-purple-800 opacity-70 focus:outline-none focus:ring focus:ring-purple-700"  onClick={scrollUp}><span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 ml-3.5 mt-2 text-slate-500"></span>
+            <button className="fixed bottom-6 right-6 w-12 h-12 rounded-full  bg-slate-500 opacity-50 focus:outline-none focus:ring focus:ring-slate-400"  onClick={scrollUp}><span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 ml-3.5 mt-2 text-slate-200"></span>
             </button>
         )}
     </div>
